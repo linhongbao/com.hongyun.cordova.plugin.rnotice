@@ -1,0 +1,27 @@
+{
+  "name": "com.hongyun.cordova.plugin.rnotice",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.hongyun.cordova.plugin.rnotice",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linhongbao/com.hongyun.cordova.plugin.rnotice.git"
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linhongbao/com.hongyun.cordova.plugin.rnotice/issues"
+  },
+  "homepage": "https://github.com/linhongbao/com.hongyun.cordova.plugin.rnotice#readme"
+}

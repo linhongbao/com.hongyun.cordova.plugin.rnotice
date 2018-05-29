@@ -48,3 +48,14 @@ channel.onCordovaReady.subscribe(function() {
                            
 });
 
+/***
+ *  cordova.addWindowEventHandler("cdvrnoticemessage");
+ *  js： window.addEventListener("cdvrnoticemessage", service.reciveNotice, false); 
+ *  exec(CDVRNotice.success, CDVRNotice.error, "CDVRNotice", "start", []);
+ *  cordova.fireWindowEvent("cdvrnoticemessage", info);
+ *  
+ *  js: service.updateDeviceToken 
+ *  js: service.getDeviceToken()
+ *  js: service.passDeviceToken
+ * 
+ */

@@ -1,9 +1,6 @@
-cordova.define("com.hongyun.cordova.plugin.rnotice.CDVRNotice", function(require, exports, module) {
-
-
-var cordova = require('cordova'),
-    exec = require('cordova/exec'),
-               channel = require('cordova/channel');
+var cordova = require('cordova');
+var exec = require('cordova/exec');
+var channel = require('cordova/channel');
 
 
 
@@ -51,6 +48,3 @@ channel.onCordovaReady.subscribe(function() {
                            
 });
 
-               
-
-});
